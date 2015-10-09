@@ -65,6 +65,7 @@
 
     <!-- Carousel
     ================================================== -->
+
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -123,7 +124,7 @@
         <div class="col-lg-4">
           <img class="img-circle" src="me.jpg" alt="A picture of me" width="250" height="250">
           <h2>About Me <span class="text-muted">A brief intro</span></h2> 
-          <p>I'm a 19 year old computer engineering student at the University of Illinois - Urbana Champaign.</p>
+          <p>I'm a 19 year old computer engineering student at the University of Illinois - Urbana Champaign. I was first introduced to the world of coding through the <span class="gold">Intro to Java</span> class I took in high school.</p>
         </div>
       </div><!-- /.row -->
 
@@ -134,7 +135,7 @@
 
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Intrests <span class="text-muted animated fadeInRight">I am cool - I swear</span></h2>
+          <h2 class="featurette-heading">Intrests</h2>
           <p class="lead">I have a wide array of intrests. I consider myself an avid runner with the goal of one day completing an entire <span class="gold">marathon</span>. I also love to play <span class="gold">Ultimate Frisbee</span> and will be content with passing a disk for hours on end. When I want to relax, I like to <span class="gold">sketch</span> faces of people while listening to indie music. And one last pro tip: you can become my best friend if you marathon <em class="gold">Avatar: The Last Airbender</em> with me.</p>
         </div>
         <div class="col-md-5">
@@ -146,7 +147,7 @@
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
-          <h2 class="featurette-heading">Experience <span class="text-muted animated fadeInLeft">It's time to act grownup</span></h2>
+          <h2 class="featurette-heading">Experience</h2>
           <p class="lead">One of the biggest projects I've accomplished was being <span class="gold">editor in cheif</span> of my highschool yearbook. I also work in a research group studying <span class="gold">brain computer interfaces</span> using EEGs. More specifically, we are developing a speller that allows you to concentrate on letters on a monitor to spell out entire scentences. Lastly, I worked at <span class="gold">MIT Lincoln Labs</span> as a technical assistant. </p>
         </div>
         <div class="col-md-5 col-md-pull-7">
@@ -156,29 +157,57 @@
 
       <hr class="featurette-divider" id="contact">
 
-      <div class="row featurette">
+<!--      <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">Contact me <span class="text-muted animated fadeInRight">Connections, yay!</span></h2>
-          <p class="lead"></p>
-          <a herf="https://www.facebook.com/melissa.jin.39"></a>
-          <a class="btn btn-social-icon btn-facebook">
-          <i class="fa fa-3x fa-facebook"></i>
-        </a>
-        <a class="btn btn-social-icon btn-linkedin">
-          <i class="fa fa-3x fa-linkedin"></i>
-        </a>
+          <h2 class="featurette-heading">Contact me <span class="text-muted animated fadeInRight">Fill out the form below!</span></h2>
+          <form class="form-horizontal" role="form" action="email.php" method="get">
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="name">Name:</label>
+              <div class="col-sm-10">
+                <input type="name" class="form-control" id="name" placeholder="Enter name">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="email">Email:</label>
+              <div class="col-sm-10">
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="control-label col-sm-2" for="message">Message:</label>
+              <div class="col-sm-10">          
+                <input type="message" class="form-control" id="message" placeholder="Enter message" rows="12">
+              </div>
+            </div>
+            <div class="form-group">        
+              <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default">Submit</button>
+              </div>
+            </div>
+          </form>
         </div>
+      </div>-->
 
-
+      <p class="resume">Want to know more? Check out my <a href="resume.pdf">resume</a>.</p>
+    </div>
+  
+  
+  <footer class="footer footer-custom">
+    <div class="container">
+      <div style="text-align: center; padding-top: 40px; color: #DDD;">
+        <a class="btn btn-social-icon btn-facebook" target="_blank" href="https://www.facebook.com/melissa.jin.39">
+          <i class="fa fa-2x fa-facebook"></i>
+        </a>
+        <a class="btn btn-social-icon btn-envelope" target="_blank" href="mailto:melissa.jin.11@gmail.com">
+          <i class="fa fa-2x fa-envelope"></i>
+        </a>
+        <a class="btn btn-social-icon btn-linkedin" target="_blank" href="https://www.linkedin.com/profile/view?id=AAMAABXVjmwBHsAH_qtjLAi0_GJLeKBhiCi4Ueo&trk=hp-identity-name">
+          <i class="fa fa-2x fa-linkedin"></i>
+        </a>
 
       </div>
-
-      <hr class="featurette-divider">
-
-      <!-- /END THE FEATURETTES -->
-
-    </div><!-- /.container -->
-
+    </div>
+  </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -188,6 +217,6 @@
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="../../assets/js/vendor/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> 
   </body>
   </html>

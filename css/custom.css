@@ -43,3 +43,12 @@
 .gold{
 	color: #D1B885;
 }
+
+.footer-custom{
+	background-color: #222;
+	min-height: 150px;
+}
+
+.resume{
+	text-align: center;
+}
