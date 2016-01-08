@@ -19,6 +19,17 @@
 	transform: translateY(-25%);
 }
 
+.carousel-img{
+	position: absolute;
+  	top: 0;
+  	left: 0;
+  	width: 1500px;
+  	height: 1000px;
+  	overflow: hidden;
+  	background-position: center center;
+  	background-color: transparent;	
+}
+
 .carousel-caption-heading{
 	animation-delay: 0.4s;
 }
